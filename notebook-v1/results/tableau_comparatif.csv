@@ -1,0 +1,4 @@
+Modèle,Accuracy,Precision (macro),Recall (macro),F1-score (macro)
+k-NN,0.4556,0.4552,0.4556,0.4264
+Linéaire Softmax,0.5278,0.5615,0.5278,0.5091
+CNN,0.65,0.6493,0.65,0.6361
