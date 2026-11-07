@@ -3,30 +3,3 @@ myenv/
 .venv/
 venv/
 env/
-
-# Python / Jupyter cache
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-
-# Prepared dataset files (ignored in root, notebook-v1, notebook_v2, and all subdirectories)
-tf_flowers_prepared.npz
-**/tf_flowers_prepared.npz
-notebook-v1/tf_flowers_prepared.npz
-notebook-v1/**/tf_flowers_prepared.npz
-notebook_v2/tf_flowers_prepared.npz
-notebook_v2/**/tf_flowers_prepared.npz
-
-# Prepared cleaned dataset in notebook-v1
-flowers_cleaned.npz
-notebook-v1/data/flowers_cleaned.npz
-
-**/tf_flowers_prepared.npz
-notebook-v1/tf_flowers_prepared.npz
-notebook-v1/**/tf_flowers_prepared.npz
-notebook_v2/tf_flowers_prepared.npz
-notebook_v2/**/tf_flowers_prepared.npz
-
-# Prepared cleaned dataset in notebook-v1
-flowers_cleaned.npz
-notebook-v1/data/flowers_cleaned.npz
